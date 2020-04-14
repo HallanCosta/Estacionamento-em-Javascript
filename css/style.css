@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Roboto:wght@400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: 0;
+}
+
+body {
+  background: #f0f0f5;
+  padding: 10px 10px 10px;
+}
+
+.container {
+  color: #323232;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  padding: 50px;
+}
+
+.container section .title {
+  width: 100%;
+}
+
+.container section .title h1 {
+  font-size: 30px;
+}
+
+.container section form {
+  background-color: #fff;
+  padding: 50px 50px 50px;
+  margin: 5px 0 0;
+  border-radius: 10px;
+  box-shadow: 5px 10px lightblue;
+}
+
+
+.container section form p {
+  font-size: 20px;
+  margin: 10px 0 5px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.container section form input {
+  width: 80%;
+  font-size: 16px;
+  border: 1px solid #ced4da;
+  border-radius: 3px;
+  padding: 8px 5px 5px;
+  display: block;
+  color: black;
+  font-family: arial;
+}
+
+.container section form input:hover {
+  transition-delay: 0.1s;
+  background-color: #f0f0f5;
+  filter: brightness(100%);
+}
+
+.container section form input:focus {
+  background-color: #f0f0f5;
+  filter: brightness(100%);
+}
+
+.container section form button {
+  font-size: 17px;
+  color: white;
+  background-color: royalblue;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px 0 0;
+  filter: brightness(140%);
+}
+
+.container section form button:hover {
+  transition-delay: 0.1s;
+  filter: brightness(100%);
+  cursor: pointer;
+}
+
+.container section .cars {
+  margin: 20px 0 0;
+}
+
+.container section .cars table {
+  width: 100%;
+  background-color: white;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.container section .cars table th{
+  color: #212529;
+  font-size: 20px;
+  padding: 5px;
+  border-bottom: 2px solid grey;
+}
+
+.container section .cars table tr:nth-child(2n-2) {
+  background-color: lightgrey;
+  filter: brightness(105%);
+}
+
+.container section .cars table td {
+  text-align: center;
+  font-family: 'Baloo Thambi 2', cursive;
+  font-size: 17px;
+}
+
+.container section .cars table td button {
+  font-size: 17px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.container section .cars table td button:hover {
+  transition-delay: 0.1s;
+  background-color: darkred;
+  filter: brightness(130%);
+}
+
